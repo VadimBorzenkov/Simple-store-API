@@ -1,0 +1,77 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 600px;
+    /* Увеличим ширину контейнера */
+    margin: 20px auto;
+    /* Увеличим внешние отступы */
+    padding: 30px;
+    /* Увеличим внутренний отступ */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 30px;
+    /* Увеличим отступ между группами форм */
+}
+
+.btn-primary {
+    background-color: #28a745;
+    /* Зеленый цвет для акцентной кнопки */
+    border: none;
+    width: 100%;
+    padding: 15px;
+    /* Увеличим высоту кнопки */
+    color: #fff;
+    border-radius: 8px;
+    /* Закруглим углы кнопки */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+    /* Темный оттенок зеленого при наведении */
+}
+
+/* Стили для формы регистрации */
+.card-header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    /* Увеличим верхний и нижний отступ заголовка */
+    border: none;
+    border-radius: 8px 8px 0 0;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-row .form-group {
+    width: 48%;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    /* Учтем внутренний отступ */
+    padding: 15px;
+    /* Увеличим высоту поля ввода */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    /* Увеличим отступ между полями ввода */
+}
+
+/* Добавьте свои собственные стили здесь */
